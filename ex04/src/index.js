@@ -1,17 +1,14 @@
 const milili = [10, 25, 4];
 
-function myArr(mili){
+function myArr(mili) {
   "use strict";
   //Only change code below this line
-  //  milili[0] = 4;
-   // milili[1] = 10;
-   // milili[2] = 25;
-    mili = milili.pop();
-    milili.unshift(mili);
+  mili[0] = 4;
+  mili[1] = 10;
+  mili[2] = 25;
   //Only change code above this line
- /// return milili;
- return mili;
+  return mili;
 }
 
-console.log(myArr());
+console.log(myArr(milili));
 module.exports = myArr;
